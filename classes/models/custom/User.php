@@ -7,6 +7,19 @@ class User extends BaseUser
 		$this->Password = crypt($password);
 		$this->regDirty['password'] = true;
 	}
+	// public function isNewUser($username)
+	// {
+	// 	$Select = $this->getSelectQuery() . " where username =" . $this->db->quote($username);
+	// 	$result = $this->db->query($Select)->fetchAll();
+
+	// 	if($result != array())
+	// 	{
+	// 		return false;
+	// 	}else
+	// 	{
+	// 		return true;
+	// 	}
+	// }
 
 	public static function isLoggedIn()
 	{

@@ -72,23 +72,7 @@
                         </label>
                  </div>
                 </div> -->
-                <div class="control-group">
-                  <label for="about-me" class="control-label">About Me</label>
-                  <div class="controls">
-                    <textarea id="about-me" name="about_me"  class="input-block-level" > </textarea>
-                  </div>
-                </div>
-                <div class="control-group">
-                  <label for="user-group" class="control-label">Groups</label>
-                  <div class="controls">
-                        <select class="chosen" name="chosen[]" multiple="true" style="width:300px;"  data-bind="selectedOptions: selected, chosen: {}">
-<!--                           <? foreach($groups as $group):?>
 
-                              <option value="<?=$group['id']?>" ><?=$group['id']?></option>
-                          <?endforeach;?> -->
-                        </select>
-                  </div>
-                </div>
                 <div class="form-actions">
                   <button type="submit" class="btn btn-primary">Create User</button>
                 </div>
