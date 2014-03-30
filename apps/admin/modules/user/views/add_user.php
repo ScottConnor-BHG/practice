@@ -74,7 +74,7 @@
                 </div> -->
 
                 <div class="form-actions">
-                  <button type="submit" class="btn btn-primary">Create User</button>
+                  <a href="/user/user_list/"><input type="submit" class="btn btn-primary" value="Submit"></a>
                 </div>
                 <input type="hidden" name="posted" value="true" />
               </form>

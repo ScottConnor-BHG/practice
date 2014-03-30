@@ -22,6 +22,7 @@
   </tbody>
 </table>
 <h3> User List</h3>
+<a href='/user/add_user/'>  <input type='button' name='test' class="btn btn-primary btn-lg btn-block" value='Add New User'></a>
 <table cellpadding="0" cellspacing="0" border="0" class="table table-striped table-bordered" id="user-list">
   <thead>
     <tr>
